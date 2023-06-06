@@ -4,6 +4,7 @@
   "description": "Content Management System. Command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
