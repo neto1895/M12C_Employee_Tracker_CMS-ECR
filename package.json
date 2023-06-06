@@ -1,19 +1,21 @@
 {
-  "name":"Employee Manager",
+  "name":"employee-management",
   "version": "1.0.0",
   "description": "Content Management System. Command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neto1895/M12C_Employee_Tracker_CMS-ECR.git"
+  },
   "author": "Ernesto-Cruz",
-  "license": "ISC",
+  "license": "MIT",
+  "homepage": "https://github.com/neto1895/M12C_Employee_Tracker_CMS-ECR#readme",
   "dependencies": {
     "asciiart-logo": "^0.2.7",
     "inquirer": "^8.2.4",
-    "express": "^4.16.4",
-    "uuid": "^9.0.0",
-    "jshint": "^2.12.0",
     "mysql2": "^2.2.5"
   }
 }
