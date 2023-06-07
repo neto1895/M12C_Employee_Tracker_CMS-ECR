@@ -6,6 +6,9 @@
 
 ## Description
 
+This application let the user navigate through the database, sort by employees, roles or departments. 
+This application also let the user add new employees, roles, and departments.
+This application also let the user delete employees, roles, and departments.
 Content Management System. Command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
 ## Table of Contents
