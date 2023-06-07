@@ -393,7 +393,6 @@ function removeRole() {
   });
 }
 
-
 function viewAllDepartments() {
   db.query(`SELECT  d.id AS DepartmentID, d.department_name AS Department FROM departments d ORDER BY DepartmentID;`, function (err, results) {
     console.log("\n");
@@ -504,46 +503,35 @@ const selectedOption = (menu) => {
       viewAllbyManager();
       break;
     case "add":
-
-          add();
-
+      add();
       break;
     case "remove":
       removeEmployee();
       break;
-
-      case "updateRole":
-        updateEmployeeRole();
-        break;
-
-        case "updateManager":
-          updateManager();
-          break;
-
+    case "updateRole":
+      updateEmployeeRole();
+      break;
+    case "updateManager":
+      updateManager();
+      break;
     case "viewAllRoles":
       viewAllRoles();
       break;
-
-      case "addRole":
+    case "addRole":
         addRole();
         break;
-
-        case "removeRole":
-          removeRole();
-          break;
-
+    case "removeRole":
+        removeRole();
+        break;
     case "viewAllDepartments":
       viewAllDepartments();
       break;
-
-      case "addDepartment":
+    case "addDepartment":
         addDepartment();
         break;
-
-        case "removeDepartment":
-          removeDepartment();
-          break;
-
+    case "removeDepartment":
+        removeDepartment();
+        break;
     case "viewAllBudget":
       viewAllBudget();
       break;
