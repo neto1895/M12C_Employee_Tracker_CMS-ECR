@@ -17,6 +17,7 @@
   "dependencies": {
     "asciiart-logo": "^0.2.7",
     "inquirer": "^8.2.4",
+    "express": "^4.17.1",
     "mysql2": "^2.2.5"
   }
 }
